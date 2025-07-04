@@ -6,7 +6,8 @@ impresso na tela 'É um prazer te conhecer, <nome do usuário>!'.
 
 # Solução
 nome = input("Insira o seu nome: ")
-print("É um prazer te conhecer, " + nome + "\n")
+print("É um prazer te conhecer, " + nome)
+print(f"Esta é outra forma de te saudar, {nome}\n")
 
 # Solução extra porque fiquei entediado
 num1 = input("Insina um número para eu ver o que acontece: ")

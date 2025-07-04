@@ -12,5 +12,5 @@ A função print() pelo visto sempre
 """
 str = "Olá, mundo!"
 for letter in str:
-    print(letter, end='')   # A função print() tem um argumento end='\n' por padrão
-
+    # A função print() tem um argumento end='\n' por padrão
+    print(letter, end='')
